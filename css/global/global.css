@@ -27,6 +27,13 @@ img {
   justify-content: space-between;
 }
 
+@media (max-width: 500px) {
+  .header-item {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
 .ul-lista-links {
   display: flex;
   align-items: center;
