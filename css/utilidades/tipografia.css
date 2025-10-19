@@ -1,3 +1,9 @@
 .texto-grande {
   font: 600 4rem/1.125 "Poppins", sans-serif;
 }
+
+@media (max-width: 850px) {
+  .texto-grande {
+    font-size: 2rem;
+  }
+}

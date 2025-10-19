@@ -17,7 +17,7 @@
 }
 
 .foto-bikecraft-main {
-  height: calc(100vh + 100px);
+  height: calc(100vh + 2vh);
   object-fit: contain;
   object-position: left center;
   margin-bottom: -100px;
@@ -25,4 +25,30 @@
 
 main {
   margin-bottom: 150px;
+}
+
+@media (max-width: 850px) {
+  .grid-home {
+    padding: 12px 16px;
+    grid-template-columns: 1fr 400px;
+  }
+}
+
+@media (max-width: 700px) {
+  .grid-home {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .foto-bikecraft-main {
+    width: 100vw;
+    margin-bottom: 0px;
+    object-fit: cover;
+    height: 40vh;
+    margin-bottom: -90px;
+  }
+
+  main {
+    margin-bottom: 80px;
+  }
 }

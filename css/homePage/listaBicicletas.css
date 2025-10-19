@@ -46,3 +46,29 @@
   color: var(--cor-9);
   margin-left: 30px;
 }
+
+@media (max-width: 720px) {
+  .lista-bibicletas li a h2 {
+    font-size: 1rem;
+  }
+
+  .lista-bibicletas li a p {
+    font-size: 0.75rem;
+    margin-left: 28px;
+  }
+}
+
+.lista-bibicletas li {
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .lista-bibicletas {
+    max-width: 600px;
+    overflow: scroll;
+  }
+
+  .lista-bibicletas li {
+    width: 200px;
+  }
+}
