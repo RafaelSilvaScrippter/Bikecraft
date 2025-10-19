@@ -1,0 +1,28 @@
+.sobre-main h1 {
+  color: var(--cor-0);
+  margin-bottom: 20px;
+}
+
+.grid-home {
+  display: grid;
+  padding: 22px 32px;
+  grid-template-columns: 2fr auto;
+  align-items: center;
+}
+
+.sobre-main p {
+  font-size: 18px;
+  max-width: 40ch;
+  margin-bottom: 20px;
+}
+
+.foto-bikecraft-main {
+  height: calc(100vh + 100px);
+  object-fit: contain;
+  object-position: left center;
+  margin-bottom: -100px;
+}
+
+main {
+  margin-bottom: 150px;
+}
