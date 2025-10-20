@@ -1,0 +1,119 @@
+.bicicleta-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 90px 0px;
+  gap: 40px;
+}
+
+.nome-bicicleta-conteudo {
+  margin-bottom: 20px;
+}
+
+.nome-bicicleta-conteudo::before {
+  content: "";
+  width: 20px;
+  height: 8px;
+  display: block;
+  background-color: var(--cor-p1);
+}
+
+.paragrafo-conteudo-bicicleta {
+  margin-bottom: 20px;
+  color: var(--cor-7);
+  max-width: 55ch;
+}
+
+.grid-atributos-bicicleta {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+.grid-atributos-bicicleta a {
+  place-self: end;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 54px;
+  position: relative;
+}
+
+.grid-atributos-bicicleta a:hover {
+  background-color: var(--cor-p1);
+  color: var(--cor-p5);
+}
+
+.grid-atributos-bicicleta a::after {
+  position: relative;
+  content: url(/img/icones/seta.svg);
+  position: absolute;
+  right: 25px;
+}
+
+.grid-atributos-bicicleta a:hover::after {
+  right: 15px;
+  transition: 0.8s;
+}
+
+.lista-atributos-bicicleta li {
+  margin: 16px 0px;
+  font-size: 20px;
+  display: flex;
+  color: var(--cor-7);
+}
+
+.lista-atributos-bicicleta li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lista-atributos-bicicleta li img {
+  width: 26px;
+  height: 26px;
+}
+
+.bicicleta-imagem {
+  display: grid;
+}
+
+.bicicleta-imagem span {
+  position: absolute;
+  place-self: start end;
+  background-color: var(--cor-12);
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin-top: 20px;
+  color: var(--cor-0);
+}
+
+.bicicleta-imagem img {
+  border-radius: 8px;
+}
+
+.detalhe-bicicleta-magik {
+  padding: 22px;
+  box-shadow: inset -900px 0px 0px 0px var(--cor-11);
+}
+
+@media (max-width: 850px) {
+  .bicicleta-item {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+}
+
+@media (max-width: 420px) {
+  .grid-atributos-bicicleta {
+    grid-template-columns: 1fr;
+  }
+
+  .bicicleta-item {
+    margin: 30px 0px;
+  }
+
+  .grid-atributos-bicicleta a {
+    place-self: start;
+    margin-top: 30px;
+  }
+}
