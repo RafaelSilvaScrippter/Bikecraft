@@ -1,0 +1,128 @@
+.seguros {
+  background-color: var(--cor-11);
+  padding: 22px 32px;
+}
+
+.seguros h1 {
+  margin-top: 40px;
+}
+
+@media (max-width: 400px) {
+  .seguros h1 {
+    margin-top: 20px !important;
+  }
+}
+
+.btn-seguro-prata a {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 16px 32px;
+  color: var(--cor-0);
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: var(--cor-9) !important;
+}
+
+.btn-seguro-prata a:hover {
+  background-color: var(--cor-8) !important;
+}
+
+.lista-vantagens-seguro {
+  margin-bottom: 40px;
+}
+
+.header-card-seguro {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.seguros-container-card {
+  margin-top: 60px;
+}
+
+@media (max-width: 400px) {
+  .seguros-container-card {
+    margin-top: 10px;
+  }
+
+  .header-card-seguro .preco p {
+    font-size: 20px;
+  }
+}
+
+.prata-titulo {
+  color: var(--cor-8);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.ouro-titulo {
+  color: var(--cor-p1);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.preco p {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.preco span {
+  color: var(--cor-9);
+  text-align: right;
+  display: block;
+  font-family: "Roboto", sans-serif;
+}
+
+.lista-vantagens-seguro li {
+  margin: 18px 0px;
+  color: var(--cor-0);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.seguros-container-card {
+  display: grid;
+  max-width: 1200px;
+  margin: 90px auto;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 90px;
+}
+
+.seguro-card-item {
+  background-color: var(--cor-12);
+  border-radius: 8px;
+  padding: 22px 42px;
+}
+
+.lista-vantagens-seguro li {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.lista-vantagens-seguro li::before {
+  content: url(/img/icones/lista.svg);
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  position: absolute;
+  left: -20px;
+  top: 0px;
+}
+
+@media (max-width: 700px) {
+  .seguros-container-card {
+    grid-template-columns: auto;
+    justify-content: stretch;
+  }
+}

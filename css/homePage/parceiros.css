@@ -76,6 +76,11 @@
   .parceiros h1 {
     margin-bottom: 30px;
   }
+
+  .sem-borda-penultimo:nth-child(1n),
+  .sem-borda-ultimo:nth-child(1n) {
+    border-bottom: 1px solid #ccc !important;
+  }
 }
 
 .border-right-sem:nth-child(1n) {
