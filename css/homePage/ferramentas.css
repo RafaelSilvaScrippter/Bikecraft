@@ -89,13 +89,15 @@
 }
 
 .secao-tecnologia {
+  border-bottom: 100px solid #fff;
+  margin-bottom: 90px;
   box-shadow: inset 0px -20px 0px 0px var(--cor-0),
     inset 0px 10px 0px 0px var(--cor-0);
 }
 
 .foto-tecnologia {
   height: calc(100% + 35%);
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   object-position: left center;
   margin-top: -90px;
@@ -113,6 +115,8 @@
   .secao-tecnologia {
     box-shadow: initial;
     padding: 12px 16px;
+    margin-bottom: 40px;
+    border-bottom: 0px;
   }
 }
 
