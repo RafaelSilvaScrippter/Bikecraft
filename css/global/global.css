@@ -88,3 +88,7 @@ img {
   color: var(--cor-0);
   background-image: initial;
 }
+
+.texto-branco {
+  color: var(--cor-0);
+}
