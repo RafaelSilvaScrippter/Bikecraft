@@ -7,3 +7,11 @@
     font-size: 2rem;
   }
 }
+
+.font-principal {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-secundaria {
+  font-family: "Roboto", sans-serif;
+}
