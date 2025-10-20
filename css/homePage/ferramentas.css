@@ -89,12 +89,12 @@
 }
 
 .secao-tecnologia {
-  box-shadow: inset 0px -190px 0px 0px var(--cor-0),
+  box-shadow: inset 0px -20px 0px 0px var(--cor-0),
     inset 0px 10px 0px 0px var(--cor-0);
 }
 
 .foto-tecnologia {
-  height: 130vh;
+  height: calc(100% + 35%);
   width: 100%;
   object-fit: cover;
   object-position: left center;
