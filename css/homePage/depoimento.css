@@ -1,0 +1,52 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.texto-container-depoimento {
+  background-color: var(--cor-p1);
+  place-content: end;
+  padding: 22px 42px;
+}
+
+.texto-container-depoimento p {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  font-weight: bold;
+  max-width: 35ch;
+  color: var(--cor-p5);
+}
+
+.texto-container-depoimento span {
+  color: var(--cor-p5);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media (max-width: 950px) {
+  .texto-container-depoimento p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .texto-container-depoimento p {
+    font-size: 1.5rem;
+  }
+
+  .texto-container-depoimento span {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
+
+  .depoimento img {
+    object-fit: cover;
+    height: 25vh;
+    width: 100%;
+  }
+}

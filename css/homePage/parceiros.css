@@ -4,6 +4,7 @@
 
 .parceiros {
   padding: 22px 32px;
+  margin-bottom: 120px;
 }
 
 .lista-parceiros {
@@ -29,9 +30,17 @@
   border-bottom: none;
 }
 
+.sem-border-bottom:nth-child(1n) {
+  border-bottom: none !important;
+}
+
 @media (max-width: 700px) {
   .lista-parceiros {
     grid-template-columns: repeat(2, auto);
+  }
+
+  .sem-border-bottom:nth-child(1n) {
+    border-bottom: 1px solid #ccc !important;
   }
 
   .sem-borda-ultimo:nth-child(1n),
@@ -60,7 +69,15 @@
     border-right: none;
   }
 
+  .parceiros {
+    margin-bottom: 50px;
+  }
+
   .parceiros h1 {
     margin-bottom: 30px;
   }
+}
+
+.border-right-sem:nth-child(1n) {
+  border-right: none !important;
 }
