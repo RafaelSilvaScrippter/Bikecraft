@@ -1,0 +1,46 @@
+.vantages {
+  padding: 22px 34px;
+}
+
+.vantages h1 {
+  margin-bottom: 90px;
+  padding-top: 90px;
+}
+
+.container-grid-vantagens {
+  display: grid;
+  gap: 50px 20px;
+  padding-bottom: 90px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 650px) {
+  .container-grid-vantagens {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 450px) {
+  .container-grid-vantagens {
+    grid-template-columns: 1fr;
+  }
+
+  .vantages h1 {
+    margin-bottom: 40px;
+  }
+}
+
+.vantagens-item h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: var(--cor-0);
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.vantagens-item p {
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-8);
+  max-width: 35ch;
+  font-size: 18px;
+}

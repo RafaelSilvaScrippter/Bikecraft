@@ -1,0 +1,45 @@
+.titulo-seguro h2 {
+  color: var(--cor-8);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.titulo-seguro {
+  padding-top: 50px;
+}
+
+.seguro-pagina.bg-black {
+  background-color: var(--cor-11);
+}
+
+.seguro {
+  padding: 90px 40px;
+}
+
+.seguro-pagina {
+  padding: 22px 34px;
+}
+
+.seguros-container-card {
+  padding-bottom: 90px;
+}
+
+main.seguro-pagina {
+  margin-bottom: 0px;
+}
+
+@media (max-width: 450px) {
+  .titulo-seguro h2 {
+    font-size: 1.2rem;
+  }
+
+  .seguros-container-card {
+    padding-bottom: 20px !important;
+  }
+
+  .titulo-seguro {
+    padding-top: 30px;
+  }
+}
