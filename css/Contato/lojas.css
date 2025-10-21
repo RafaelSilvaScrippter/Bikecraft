@@ -1,0 +1,78 @@
+.secao-lojas-endereco {
+  padding-top: 90px;
+  padding: 90px 22px 90px 22px;
+}
+
+.info-loja {
+  margin: 10px 0px;
+}
+
+.lista-endereco-lojas,
+.lista-contato-lojas {
+  padding-left: 12px;
+  border-left: 2px solid #ccc;
+}
+
+.lista-contato-lojas li,
+.lista-endereco-lojas li {
+  margin: 12px 0px;
+  color: var(--cor-8);
+  font-size: 20px;
+}
+
+.info-loja {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+@media (max-width: 440px) {
+  .info-loja {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.horario-de-funcionamento {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 12px;
+  margin-top: 40px;
+}
+
+.horario-de-funcionamento::before {
+  content: url(/img/icones/horario.svg);
+}
+
+.titulo-cidade {
+  font-size: 38px;
+  margin-top: 40px;
+  margin-left: 22px;
+}
+
+.secao-lojas-endereco {
+  background-color: #f7f7f7;
+}
+
+.loja-item {
+  background-color: #fff;
+  box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.1);
+}
+
+.container-lojas-fisicas {
+  display: grid;
+  gap: 40px;
+  margin-top: 80px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 850px) {
+  .container-lojas-fisicas {
+    grid-template-columns: 1fr;
+  }
+}
+
+.info-loja {
+  padding: 22px;
+  background-color: #fff;
+}

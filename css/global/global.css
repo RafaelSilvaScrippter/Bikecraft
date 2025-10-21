@@ -92,3 +92,25 @@ img {
 .texto-branco {
   color: var(--cor-0);
 }
+
+.titulo-e-sub-titulo h2 {
+  color: var(--cor-8);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.titulo-e-sub-titulo {
+  padding-top: 50px;
+}
+
+@media (max-width: 450px) {
+  .titulo-e-sub-titulo h2 {
+    font-size: 1.2rem;
+  }
+
+  .titulo-e-sub-titulo {
+    padding-top: 30px;
+  }
+}
