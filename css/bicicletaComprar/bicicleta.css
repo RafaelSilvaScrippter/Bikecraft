@@ -1,0 +1,95 @@
+.grid-bikecraft {
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  align-items: start;
+}
+
+@media (max-width: 780px) {
+  .grid-bikecraft {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .grid-imagem {
+    grid-template-columns: auto !important;
+  }
+}
+
+.comprar-bicicleta.bg-black {
+  margin-bottom: 0px;
+  padding: 22px 32px;
+  background-color: var(--cor-11);
+}
+
+.bicicleta {
+  padding-bottom: 90px;
+}
+
+@media (max-width: 800px) {
+  .bicicleta {
+    padding-bottom: 60px;
+  }
+}
+
+.descricao {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: var(--cor-8);
+  margin-bottom: 25px;
+}
+
+.grid-btn {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+}
+
+.grid-btn a:hover {
+  background-color: var(--cor-p1);
+  color: var(--cor-p5);
+}
+
+.grid-btn a {
+  font-size: 18px;
+  font-weight: 800;
+  padding: 20px 52px;
+  place-self: center;
+}
+
+@media (max-width: 450px) {
+  .grid-btn {
+    grid-template-columns: auto;
+  }
+
+  .grid-btn a {
+    place-self: start;
+  }
+}
+
+.grid-btn div p:first-child {
+  margin-bottom: 8px;
+}
+
+.grid-btn p {
+  font-size: 12px;
+  width: fit-content;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  color: var(--cor-0);
+  background-color: var(--cor-12);
+  padding: 5px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+}
+
+.entrega::before {
+  content: url(/img/icones/entrega.svg);
+}
+
+.estoque::before {
+  content: url(/img/icones/estoque.svg);
+}

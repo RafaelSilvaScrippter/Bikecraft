@@ -1,0 +1,30 @@
+.ficha-tecnica {
+  margin-top: 40px;
+}
+
+.container-ficha-tecninca {
+  background-color: var(--cor-12);
+  padding: 16px;
+  color: var(--cor-0);
+  font-family: "Roboto", sans-serif;
+}
+
+.container-ficha-tecninca li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 12px 0px;
+}
+
+.container-ficha-tecninca li {
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--cor-8);
+}
+
+.container-ficha-tecninca li:last-child {
+  border-bottom: none;
+}
+
+.container-ficha-tecninca li p:last-child {
+  color: var(--cor-6);
+}

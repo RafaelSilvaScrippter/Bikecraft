@@ -1,0 +1,53 @@
+.escolher {
+  padding: 50px 32px;
+}
+
+.bicicletas-escolher {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+
+.nome-bicicleta {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 12px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+@media (max-width: 500px) {
+  .nome-bicicleta {
+    font-size: 22px;
+  }
+
+  .bicicletas-escolher {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+.nome-bicicleta::before {
+  display: inline-block;
+  content: "";
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+}
+
+.link-bikecraft {
+  color: var(--cor-12);
+}
+
+.link-bikecraft:hover .nome-bicicleta::before {
+  width: 40px;
+  transition: 0.8s;
+}
+
+.preco-bicicleta {
+  margin-left: 30px;
+  color: var(--cor-8);
+}
