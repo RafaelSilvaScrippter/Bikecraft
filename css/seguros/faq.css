@@ -37,7 +37,7 @@ dt::after {
   rotate: -180deg;
   content: url(/img/icones/seta-abrir.svg);
 }
-dt:hover:after {
+.perguntas-frequentes div:hover dt:after {
   rotate: -0deg;
   transition: 0.8s;
 }
