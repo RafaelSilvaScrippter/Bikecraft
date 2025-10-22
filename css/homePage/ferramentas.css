@@ -89,8 +89,9 @@
 }
 
 .secao-tecnologia {
-  border-bottom: 100px solid #fff;
+  border-bottom: 70px solid #fff;
   margin-bottom: 90px;
+  padding-bottom: 90px;
   box-shadow: inset 0px -20px 0px 0px var(--cor-0),
     inset 0px 10px 0px 0px var(--cor-0);
 }
