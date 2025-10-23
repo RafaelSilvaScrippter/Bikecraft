@@ -9,7 +9,9 @@ textarea {
   resize: none;
 }
 
-input,
+input[type="email"],
+input[type="text"],
+input[type="number"],
 textarea {
   font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
@@ -29,7 +31,11 @@ textarea:focus {
   outline: 1px solid var(--cor-p1);
 }
 
-form {
+.formulario label {
+  width: fit-content;
+}
+
+.formulario {
   padding-left: 30px;
   padding-top: 60px;
   padding-bottom: 80px;
