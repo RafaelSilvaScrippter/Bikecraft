@@ -42,10 +42,6 @@ dt::after {
   transition: 0.8s;
 }
 
-dt:hover {
-  cursor: pointer;
-}
-
 dt {
   position: relative;
   font-family: "Poppins", sans-serif;
