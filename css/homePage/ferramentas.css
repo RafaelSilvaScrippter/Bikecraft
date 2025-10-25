@@ -8,6 +8,11 @@
   margin-bottom: 20px;
 }
 
+h2.texto-grande {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
 .secao-tecnologia {
   padding: 42px 32px;
   margin-top: 90px;
