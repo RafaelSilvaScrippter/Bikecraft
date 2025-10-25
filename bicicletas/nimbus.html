@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nimbus | BikeCraft</title>
+  <script>
+    document.documentElement.classList.add("js")
+  </script>
 </head>
 
 <body>
@@ -35,16 +38,14 @@
       </div>
       <div class="grid-bikecraft">
         <div class="imagem-bicicleta">
-          <img src="/img/bicicletas/nimbus.jpg" alt="Bikecraft Nimbus Stark">
-          <div class="grid-imagem">
-            <img src="/img/bicicletas/magic.jpg" alt="Bikecraft Magik">
-            <img src="/img/bicicletas/nebula.jpg" alt="Bikecraft Nebula">
-          </div>
+          <img data-bicicleta-principal src="/img/bicicletas/nimbus.jpg" alt="Bikecraft Nimbus Stark">
+          <img data-bicicleta-item src="/img/bicicletas/magic.jpg" alt="Bikecraft Magik">
+          <img data-bicicleta-item src="/img/bicicletas/nebula.jpg" alt="Bikecraft Nebula">
         </div>
         <div class="conteudo-bikcraft">
           <p class="descricao">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
           <div class="grid-btn">
-            <a class="btn-principal" href="/orcamento.html">Compre agora</a>
+            <a class="btn-principal" href="../orcamento.html?tipo=bicicleta&produto=nimbus">Compre agora</a>
             <div>
               <p class="entrega">entrega em 5 dias</p>
               <p class="estoque">18 em estoque</p>
@@ -169,6 +170,7 @@
       </div>
     </div>
   </footer>
+  <script src="/script.js"></script>
 </body>
 
 </html>

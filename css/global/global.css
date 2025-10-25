@@ -56,13 +56,23 @@ a.link {
   display: inline-block;
 }
 
+.ativo::after {
+  content: "";
+  width: auto;
+  position: relative;
+  display: block;
+  bottom: -8px;
+  height: 2px;
+  background-color: var(--cor-0);
+}
+
 .link:hover::after {
   content: "";
   width: auto;
   position: relative;
   display: block;
   bottom: -8px;
-  height: 4px;
+  height: 2px;
   background-color: var(--cor-0);
 }
 
@@ -121,4 +131,13 @@ a.link {
 
 .titulo-e-sub-titulo {
   background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
+}
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
 }
