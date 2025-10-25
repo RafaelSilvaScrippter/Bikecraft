@@ -114,3 +114,7 @@ img {
     padding-top: 30px;
   }
 }
+
+.titulo-e-sub-titulo {
+  background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
+}

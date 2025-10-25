@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 90px 0px;
   gap: 40px;
+  background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
 }
 
 .nome-bicicleta-conteudo {
@@ -91,9 +92,13 @@
   border-radius: 8px;
 }
 
-.detalhe-bicicleta-magik {
+.image-bg {
+  background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
+}
+
+.bicicleta-item.detalhe-bicicleta-magik {
   padding: 22px;
-  box-shadow: inset -900px 0px 0px 0px var(--cor-11);
+  background: linear-gradient(to right, #fff 20%, #111 0%);
 }
 
 @media (max-width: 850px) {

@@ -4,8 +4,9 @@
 }
 
 .texto-container-depoimento {
-  background-color: var(--cor-p1);
   place-content: end;
+  background: var(--cor-p1) url(/img/dec/top-left-p.svg) no-repeat top 30px left
+    40px;
   padding: 22px 42px;
 }
 
