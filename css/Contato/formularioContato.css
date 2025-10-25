@@ -40,7 +40,8 @@ textarea:focus {
   padding-top: 60px;
   padding-bottom: 80px;
   padding-right: 60px;
-  background-color: #fff;
+  background: #fff url(/img/dec/bottom-right.svg) no-repeat bottom 30px right
+    20px;
 }
 
 .input-container-header {
@@ -63,5 +64,11 @@ textarea:focus {
     max-width: 100%;
     width: 100%;
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .formulario {
+    background: #fff;
   }
 }

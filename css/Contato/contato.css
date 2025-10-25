@@ -65,8 +65,9 @@
 }
 
 .card-container-contato {
-  background-color: #000;
+  background: #000 url(/img/dec/bottom-left.svg) no-repeat bottom 30px left 20px;
   padding: 22px;
+  padding-bottom: 130px;
   padding-top: 60px;
 }
 
@@ -82,10 +83,18 @@
   .grid-contato {
     grid-template-columns: repeat(2, auto);
   }
+
+  .card-container-contato {
+    padding-bottom: 60px;
+  }
 }
 
 @media (max-width: 600px) {
   .grid-contato {
     grid-template-columns: auto;
+  }
+
+  .card-container-contato {
+    background: var(--cor-12);
   }
 }

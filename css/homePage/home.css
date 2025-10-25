@@ -3,6 +3,11 @@
   margin-bottom: 20px;
 }
 
+.home-main {
+  background: var(--cor-12) url(/img/dec/bottom-left.svg) no-repeat bottom 40px
+    left 32px;
+}
+
 .grid-home {
   display: grid;
   padding: 22px 32px;
