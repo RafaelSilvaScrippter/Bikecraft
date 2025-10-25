@@ -42,6 +42,17 @@ dt::after {
   transition: 0.8s;
 }
 
+.perguntas-frequentes div dt.de::after {
+  rotate: 0deg;
+}
+
+dt button {
+  font-family: "Roboto";
+  font-size: 22px;
+  background-color: transparent;
+  border: none;
+}
+
 dt {
   position: relative;
   font-family: "Poppins", sans-serif;

@@ -11,6 +11,9 @@
     <link rel="preload" href="/css/style.css" as="style">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikecraft</title>
+    <script>
+        document.documentElement.classList.add("js")
+    </script>
 </head>
 
 <body>
@@ -30,12 +33,12 @@
     </header>
     <main class="bg-black home-main">
         <div class="container grid-home">
-            <div class="sobre-main">
+            <div data-anime="500" class="sobre-main">
                 <h1 class="texto-grande">Bicicletas feitas<br> sob medida <span class="ponto">.</span></h1>
                 <p class="paragrafo-c5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a class="btn-principal" href="/bicicletas.html">Escolha a sua</a>
             </div>
-            <img class="foto-bikecraft-main" src="/img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta eletrica">
+            <img data-anime="500" class="foto-bikecraft-main" src="/img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta eletrica">
         </div>
     </main>
     <section class=" secao-bikecrafts-a-venda">
@@ -200,6 +203,8 @@
             </div>
         </div>
     </footer>
+    <script src="/scripts/simple-anime.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>

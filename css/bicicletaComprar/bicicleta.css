@@ -6,14 +6,28 @@
   align-items: start;
 }
 
-@media (max-width: 780px) {
-  .grid-bikecraft {
-    display: flex;
-    flex-direction: column-reverse;
-  }
+.imagem-bicicleta img:first-child {
+  grid-column: 1 / -1;
+}
 
+.imagem-bicicleta img:nth-child(3) {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.imagem-bicicleta {
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 780px) {
   .grid-imagem {
     grid-template-columns: auto !important;
+  }
+
+  .grid-bikecraft {
+    grid-template-columns: auto;
   }
 }
 
