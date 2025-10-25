@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+a.link {
+  margin: 0px 10px;
+}
+
 .bg-black {
   background-color: var(--cor-12);
 }
