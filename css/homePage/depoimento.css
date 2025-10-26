@@ -5,8 +5,8 @@
 
 .texto-container-depoimento {
   place-content: end;
-  background: var(--cor-p1) url(/img/dec/top-left-p.svg) no-repeat top 30px left
-    40px;
+  background: var(--cor-p1) url(../../img/dec/top-left-p.svg) no-repeat top 30px
+    left 40px;
   padding: 22px 42px;
 }
 

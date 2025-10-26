@@ -42,15 +42,15 @@
 }
 
 .endereco-li::before {
-  content: url(/img/icones/local.svg);
+  content: url(../../img/icones/local.svg);
 }
 
 .email-contato-li::before {
-  content: url(/img/icones/email.svg);
+  content: url(../../img/icones/email.svg);
 }
 
 .telefone-contato p::before {
-  content: url(/img/icones/telefone.svg);
+  content: url(../../img/icones/telefone.svg);
 }
 
 .lista-redes-sociais-contato {
@@ -65,7 +65,8 @@
 }
 
 .card-container-contato {
-  background: #000 url(/img/dec/bottom-left.svg) no-repeat bottom 30px left 20px;
+  background: #000 url(../../img/dec/bottom-left.svg) no-repeat bottom 30px left
+    20px;
   padding: 22px;
   padding-bottom: 130px;
   padding-top: 60px;

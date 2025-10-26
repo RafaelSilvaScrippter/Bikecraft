@@ -47,7 +47,7 @@ h2.texto-grande {
 }
 
 .eletrica-icone-tecnlogia::before {
-  content: url(/img/icones/eletrica.svg);
+  content: url(../../img/icones/eletrica.svg);
   width: 26px;
   height: 20px;
   display: block;
@@ -55,7 +55,7 @@ h2.texto-grande {
 }
 
 .rastreador-icone-tecnologia::before {
-  content: url(/img/icones/rastreador.svg);
+  content: url(../../img/icones/rastreador.svg);
   width: 26px;
   height: 20px;
   display: block;
