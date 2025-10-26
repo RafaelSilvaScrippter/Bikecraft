@@ -101,9 +101,9 @@
 }
 
 .entrega::before {
-  content: url(/img/icones/entrega.svg);
+  content: url(../../img/icones/entrega.svg);
 }
 
 .estoque::before {
-  content: url(/img/icones/estoque.svg);
+  content: url(../../img/icones/estoque.svg);
 }
