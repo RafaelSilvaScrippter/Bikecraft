@@ -4,7 +4,7 @@
   margin: 90px 0px;
   padding-left: 22px;
   gap: 40px;
-  background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 30px right 20px;
 }
 
 .nome-bicicleta-conteudo {
@@ -47,7 +47,7 @@
 
 .grid-atributos-bicicleta a::after {
   position: relative;
-  content: url(/img/icones/seta.svg);
+  content: url(../../img/icones/seta.svg);
   position: absolute;
   right: 25px;
 }
@@ -94,7 +94,7 @@
 }
 
 .image-bg {
-  background: url(/img/dec/top-right.svg) no-repeat top 30px right 20px;
+  background: url(../../img/dec/top-right.svg) no-repeat top 30px right 20px;
 }
 
 .bicicleta-item.detalhe-bicicleta-magik {

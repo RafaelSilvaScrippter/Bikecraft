@@ -41,7 +41,7 @@
 }
 
 .horario-de-funcionamento::before {
-  content: url(/img/icones/horario.svg);
+  content: url(../../img/icones/horario.svg);
 }
 
 .titulo-cidade {
