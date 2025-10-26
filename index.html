@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="preload" href="/css/style.css" as="style">
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/css/style.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikecraft</title>
     <script>
@@ -38,7 +39,10 @@
                 <p class="paragrafo-c5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.</p>
                 <a class="btn-principal" href="/bicicletas.html">Escolha a sua</a>
             </div>
-            <img data-anime="500" class="foto-bikecraft-main" src="/img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta eletrica">
+            <picture>
+                <source media="(max-width:800px)" srcset="/img/bicicletas/nimbus.jpg">
+                <img data-anime="500" class="foto-bikecraft-main" src="/img/bicicletas/nimbus-home.jpg" alt="Bicicleta preta eletrica">
+            </picture>
         </div>
     </main>
     <section class=" secao-bikecrafts-a-venda">

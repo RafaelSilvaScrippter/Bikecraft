@@ -107,6 +107,9 @@
     grid-template-columns: 1fr;
     padding: 22px;
   }
+  .bicicleta-item.detalhe-bicicleta-magik {
+    background: #000;
+  }
 }
 
 @media (max-width: 420px) {

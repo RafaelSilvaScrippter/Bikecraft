@@ -46,11 +46,9 @@ main {
   }
 
   .foto-bikecraft-main {
-    width: 100vw;
-    margin-bottom: 0px;
     object-fit: cover;
-    height: 20vh;
-    margin-bottom: -90px;
+    height: 300px;
+    width: 100%;
   }
 
   main {
